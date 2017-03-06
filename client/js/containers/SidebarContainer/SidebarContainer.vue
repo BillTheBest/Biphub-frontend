@@ -3,11 +3,15 @@
 <template>
   <div class="container">
     <LogoText></LogoText>
-    <UserProfile class="component-side"
+    <UserProfile class="side-user-profile"
                  photo="/static/profile-menu-image.png"
                  name="jason"
                  role="developer"
     ></UserProfile>
+    <MenuItem class="component-side"
+    ></MenuItem>
+    <MenuItem class="component-side"
+    ></MenuItem>
     <MenuItem class="component-side"
     ></MenuItem>
   </div>

@@ -1,14 +1,24 @@
+$color-dark: #34425A;
+$color-light-purple: #899dc1;
+$color-white: #white;
+
 .side-user-profile {
-  background-color: #34425A;
+  background-color: $color-dark;
+  .name {
+    color: white;
+  }
+  .role {
+    color: $color-light-purple;
+  }
 }
 
 .component-side {
-  background-color: #34425A;
-  color: #899dc1;
+  background-color: $color-dark;
+  color: $color-light-purple;
 }
 
 .component-side--active {
-  background-color: #2b384e;
+  background-color: $color-dark;
   color: white;
 }
 
