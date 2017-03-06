@@ -8,11 +8,17 @@
                  name="jason"
                  role="developer"
     ></UserProfile>
-    <MenuItem class="component-side"
+    <MenuItem class="component-side--active"
+              iconType="home"
+              label="home"
     ></MenuItem>
     <MenuItem class="component-side"
+              iconType="grav"
+              label="profile"
     ></MenuItem>
     <MenuItem class="component-side"
+              iconType="bandcamp"
+              label="bips"
     ></MenuItem>
   </div>
 </template>

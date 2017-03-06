@@ -3,7 +3,7 @@
 <template>
   <div class="component">
 
-    <div class="container-pad">
+    <div class="component-pad">
       <div class="photo"
            v-if="enablePhoto && photo">
         <img v-bind:src="photo"

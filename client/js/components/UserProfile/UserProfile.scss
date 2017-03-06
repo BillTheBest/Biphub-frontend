@@ -1,12 +1,12 @@
 @import '../../../styles/size.scss';
 @import '../../../styles/padding.scss';
 // TODO: Possibly refactor this (vertical center) using flex
-.container {
+.component {
   width: 100%;
   min-height: 60px;  // TODO: Static value is not good. Revise this
 }
 
-.container-pad {
+.component-pad {
   padding: $pd--lg;
 }
 

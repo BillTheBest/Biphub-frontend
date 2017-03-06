@@ -2,19 +2,24 @@
 
 <template>
   <div class="component">
-    <Icon></Icon>
-    <div>{{ label }}</div>
+    <div class="component-pad">
+      <Icon v-bind:type="iconType"></Icon>
+      <div class="label">{{ label }}</div>
+    </div>
   </div>
 </template>
 
 <script>
   import Icon from 'components/Icon'
   export default {
+  	created() {
+  		console.log('this ', this.iconType)
+    },
     components: {
       Icon,
     },
     props: {
-    	icon: { type: String, default: null },
+    	iconType: { type: String, default: null },
       label: { type: String, default: null, },
     }
   }
