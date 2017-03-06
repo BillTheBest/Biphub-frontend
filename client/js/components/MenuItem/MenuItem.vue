@@ -1,7 +1,7 @@
 <style scoped lang="scss" src="./MenuItem.scss"></style>
 
 <template>
-  <div>
+  <div class="component">
     <Icon></Icon>
     <div>{{ label }}</div>
   </div>
@@ -14,6 +14,7 @@
       Icon,
     },
     props: {
+    	icon: { type: String, default: null },
       label: { type: String, default: null, },
     }
   }

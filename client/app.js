@@ -7,6 +7,9 @@ sync(store, router)
 
 import 'styles/style.scss'
 
+// TODO: Import different theme per setting
+import 'styles/themes/theme1.scss'
+
 const app = new Vue({
   router,
   store,

@@ -1,7 +1,7 @@
 <style scoped lang="scss" src="./UserProfile.scss"></style>
 
 <template>
-  <div class="container">
+  <div class="component">
 
     <div class="container-pad">
       <div class="photo"

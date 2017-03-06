@@ -1,16 +1,15 @@
-<style scoped lang="scss">
-  .container {
-  }
-</style>
+<style scoped lang="scss" src="./SidebarContainer.scss"></style>
 
 <template>
   <div class="container">
     <LogoText></LogoText>
-    <UserProfile photo="/static/profile-menu-image.png"
+    <UserProfile class="component-side"
+                 photo="/static/profile-menu-image.png"
                  name="jason"
                  role="developer"
     ></UserProfile>
-    test
+    <MenuItem class="component-side"
+    ></MenuItem>
   </div>
 </template>
 
