@@ -1,5 +1,7 @@
+<style scoped lang="scss" src="./Icon.scss"></style>
+
 <template>
-  <span>
+  <span class="icon">
     <i v-bind:class="iconClass" aria-hidden="true"></i>
   </span>
 </template>

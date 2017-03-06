@@ -1,0 +1,6 @@
+@import '../../../styles/size';
+.icon {
+  > i {
+    font-size: $fsize--lg;
+  }
+}
