@@ -1,16 +1,9 @@
-<style scoped lang="scss">
-  .sidebar {
-    width: 160px;
-  }
-</style>
+<style scoped lang="scss" src="./HomePage.scss"></style>
 
 <template>
   <div class="page">
     <div is="SidebarContainer"
          class="sidebar" >
-    </div>
-    <div>
-      test
     </div>
   </div>
 </template>
