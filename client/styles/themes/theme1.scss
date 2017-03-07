@@ -6,6 +6,7 @@
 @import '../size';
 $color-dark: #34425a;
 $color-deep-dark: #2b384e;
+$color-light-dark: #374051;
 $color-light-purple: #899dc1;
 $color-white: white;
 
@@ -41,4 +42,8 @@ div {
 .component-side--active {
   background-color: $color-deep-dark;
   color: $color-white;
+}
+
+.info-box-heading {
+  color: $color-light-dark;
 }

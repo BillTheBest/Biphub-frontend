@@ -1,9 +1,14 @@
 @import "../../../styles/size";
 
 .component {
-  border: 1px solid black;
+  width: 100%;
 }
 
-.values-heading {
+.values {
+  display: flex;
+}
+
+.heading {
   font-size: $fsize--lg;
+  padding-right: 40px;
 }
