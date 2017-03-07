@@ -3,8 +3,16 @@ language: node_js
 node_js:
   - "node"
 
+before_install:
+  - "npm install --save-dev stylelint@^7.8.0"
+  - "npm install --save-dev stylelint-config-standard"
+  - "npm install -g eslint"
+  - "npm install -g eslint-plugin-vue"
+
 install:
   - npm install
 
 script:
+  - npm run scss:lint
+  - npm run js:lint
   - npm run build

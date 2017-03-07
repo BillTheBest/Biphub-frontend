@@ -8,7 +8,8 @@
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
     "fix": "eslint --fix ./",
-    "lint": "eslint client/* --ext .js --ext .vue"
+    "js:lint": "eslint client/* --ext .js --ext .vue",
+    "scss:lint": "stylelint \"client/**/*.scss\" --syntax scss"
   },
   "author": "Jason Shin <visualbbasic@gmail.com>",
   "license": "MIT",
@@ -46,6 +47,8 @@
     "raw-loader": "^0.5.1",
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.1",
+    "stylelint": "^7.8.0",
+    "stylelint-config-standard": "^16.0.0",
     "testcafe": "^0.12.1",
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.3",
