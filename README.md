@@ -23,6 +23,16 @@ To lint you code:
 $ npm run lint
 ```
 
+## Development dependencies (global)
+
+```
+npm install -g eslint
+npm install --save-dev eslint-config-vue
+npm install -g stylelint
+npm install --save-dev stylelint-config-standard
+npm install -g stylefmt
+```
+
 
 ---
 
