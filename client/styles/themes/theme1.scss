@@ -4,9 +4,15 @@
  Created On: 07/03/2017
  */
 $color-dark: #34425A;
+$color-deep-dark: #2b384e;
 $color-light-purple: #899dc1;
 $color-white: #white;
 
+.container-side {
+  background-color: $color-dark;
+}
+
+// User profile styling
 .side-user-profile {
   background-color: $color-dark;
   .name {
@@ -17,12 +23,14 @@ $color-white: #white;
   }
 }
 
+// Side bar menu inactive state
 .component-side {
   background-color: $color-dark;
   color: $color-light-purple;
 }
 
+// Sidebar menu item active state
 .component-side--active {
-  background-color: #2b384e;
+  background-color: $color-deep-dark;
   color: white;
 }

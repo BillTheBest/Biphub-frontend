@@ -1,7 +1,7 @@
 <style scoped lang="scss" src="./SidebarContainer.scss"></style>
 
 <template>
-  <div class="container">
+  <div class="container container-side">
     <LogoText></LogoText>
     <UserProfile class="side-user-profile"
                  photo="/static/profile-menu-image.png"
