@@ -12,7 +12,7 @@
         <Card>
           <InfoBox value="1231244"
                    iconType="users"
-                   description="test!!"
+                   description="User activity this month"
           ></InfoBox>
         </Card>
         <Card>

@@ -1,4 +1,5 @@
 @import "../../../styles/size";
+@import "../../../styles/padding";
 
 .component {
   width: 100%;
@@ -10,5 +11,5 @@
 
 .heading {
   font-size: $fsize--lg;
-  padding-right: 40px;
+  padding-right: $pd--40;
 }
