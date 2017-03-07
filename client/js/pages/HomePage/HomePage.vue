@@ -2,26 +2,50 @@
 
 <template>
   <div class="page">
+
     <div is="SidebarContainer"
          class="sidebar" >
     </div>
+
     <div class="main">
-      test
+      <div class="info-row">
+        <Card>
+          <InfoBox value="1231244"
+                   iconType="users"
+                   description="test!!"
+          ></InfoBox>
+        </Card>
+        <Card>
+          <div>testzz</div>
+        </Card>
+        <Card>
+          <div>testzz</div>
+        </Card>
+        <Card>
+          <div>testzz</div>
+        </Card>
+      </div>
     </div>
+
   </div>
 </template>
 
 <script>
+import Card from 'components/Card'
+import InfoBox from 'components/InfoBox'
 import Counter from 'components/Counter'
 import SidebarContainer from 'containers/SidebarContainer'
 
+// TODO: Implement page builder
 export default {
   created () {
     console.log('created Home')
   },
   components: {
+    Card,
     Counter,
     SidebarContainer,
+    InfoBox,
   },
   props: {
     test: { type: String, default: 'nothing!' }

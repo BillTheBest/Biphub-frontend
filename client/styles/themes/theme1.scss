@@ -3,10 +3,16 @@
  Author: Jason Shin
  Created On: 07/03/2017
  */
+@import '../size';
 $color-dark: #34425a;
 $color-deep-dark: #2b384e;
 $color-light-purple: #899dc1;
 $color-white: white;
+
+// Default font size
+div {
+  font-size: $fsize--mss;
+}
 
 .container-side {
   background-color: $color-dark;
