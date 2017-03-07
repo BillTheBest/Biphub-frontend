@@ -3,7 +3,7 @@
  Author: Jason Shin
  Created On: 07/03/2017
  */
-$color-dark: #34425A;
+$color-dark: #34425a;
 $color-deep-dark: #2b384e;
 $color-light-purple: #899dc1;
 $color-white: #white;
@@ -15,9 +15,11 @@ $color-white: #white;
 // User profile styling
 .side-user-profile {
   background-color: $color-dark;
+
   .name {
     color: white;
   }
+
   .role {
     color: $color-light-purple;
   }

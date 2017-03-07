@@ -6,7 +6,6 @@
  *
  * Set to false if you want to drop support for IE6 and IE7
  */
-
 $legacy_browser_support: false !default;
 
 /* Base
@@ -117,9 +116,10 @@ a {
  */
 
 a {
-  &:active, &:hover {
+  &:active,
+  &:hover {
     outline: 0;
-  };
+  }
 }
 
 /* Text-level semantics
@@ -300,7 +300,6 @@ sub {
     *list-style: none;
     *list-style-image: none;
   }
-
 }
 
 /* Embedded content
@@ -313,6 +312,7 @@ sub {
 
 img {
   border: 0;
+
   @if $legacy_browser_support {
     *-ms-interpolation-mode: bicubic; /* 2 */
   }
@@ -364,6 +364,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
+
   @if $legacy_browser_support {
     _font-family: 'courier new', monospace;
   }
@@ -431,7 +432,7 @@ select {
  */
 
 button,
-html input[type="button"], /* 1 */
+html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button; /* 2 */
