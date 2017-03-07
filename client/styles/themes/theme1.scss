@@ -6,7 +6,7 @@
 $color-dark: #34425a;
 $color-deep-dark: #2b384e;
 $color-light-purple: #899dc1;
-$color-white: #white;
+$color-white: white;
 
 .container-side {
   background-color: $color-dark;
@@ -17,7 +17,7 @@ $color-white: #white;
   background-color: $color-dark;
 
   .name {
-    color: white;
+    color: $color-white;
   }
 
   .role {
@@ -34,5 +34,5 @@ $color-white: #white;
 // Sidebar menu item active state
 .component-side--active {
   background-color: $color-deep-dark;
-  color: white;
+  color: $color-white;
 }

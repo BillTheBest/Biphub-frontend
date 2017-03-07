@@ -5,6 +5,9 @@
     <div is="SidebarContainer"
          class="sidebar" >
     </div>
+    <div class="main">
+      test
+    </div>
   </div>
 </template>
 
