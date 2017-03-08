@@ -1,0 +1,18 @@
+@import '../../../styles/padding';
+
+.component-pad {
+  padding: $pd--md;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  align-self: center;
+}
+
+.input {
+  width: 100%;
+  margin-left: 15px;
+  padding: $pd--md;
+  align-self: center;
+}

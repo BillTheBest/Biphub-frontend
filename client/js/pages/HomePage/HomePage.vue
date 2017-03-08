@@ -8,6 +8,10 @@
     </div>
 
     <div class="main">
+      <div>
+        <ExplorePanel></ExplorePanel>
+      </div>
+
       <div class="info-row">
         <Card>
           <InfoBox value="1231244"
@@ -35,6 +39,7 @@ import Card from 'components/Card'
 import InfoBox from 'components/InfoBox'
 import Counter from 'components/Counter'
 import SidebarContainer from 'containers/SidebarContainer'
+import ExplorePanel from 'components/ExplorePanel'
 
 // TODO: Implement page builder
 export default {
@@ -46,6 +51,7 @@ export default {
     Counter,
     SidebarContainer,
     InfoBox,
+    ExplorePanel,
   },
   props: {
     test: { type: String, default: 'nothing!' }
