@@ -1,11 +1,9 @@
 @import '../../../styles/padding';
 @import '../../../styles/padding';
+@import '../../../styles/margin';
 
 .component-pad {
   padding: $pd--md;
-  display: flex;
-  justify-content: space-between;
-  -webkit-flex-flow: row wrap;
 }
 
 .icon {
@@ -21,7 +19,15 @@
   border: 0;
 }
 
+.api-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .api-list .component {
+  // TODO: Make sure if this is meant to be fixed width
   width: 120px;
   text-align: center;
+  margin-bottom: $margin--md;
 }

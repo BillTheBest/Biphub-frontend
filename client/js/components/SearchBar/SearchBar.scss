@@ -1,10 +1,13 @@
 @import '../../../styles/padding';
 
 .search-bar {
+  width: 100%;
+}
+
+.search-bar-pad {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 10px;
+  padding: $pd--md;
 }
 
 .icon {
