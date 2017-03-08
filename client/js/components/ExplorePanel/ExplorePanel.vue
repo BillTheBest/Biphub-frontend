@@ -31,6 +31,24 @@
       <API label="WoW"
            src="static/icon-wow.png"
       ></API>
+      <API label="Team Fortress2"
+           src="static/icon-tf2.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="Team Fortress2"
+           src="static/icon-tf2.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="Team Fortress2"
+           src="static/icon-tf2.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
 
     </div>
   </div>

@@ -5,6 +5,7 @@
   padding: $pd--md;
   display: flex;
   justify-content: space-between;
+  -webkit-flex-flow: row wrap;
 }
 
 .icon {
@@ -18,4 +19,9 @@
   align-self: center;
   outline: none;
   border: 0;
+}
+
+.api-list .component {
+  width: 120px;
+  text-align: center;
 }
