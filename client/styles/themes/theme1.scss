@@ -9,6 +9,7 @@ $color-deep-dark: #2b384e;
 $color-light-dark: #374051;
 $color-light-purple: #899dc1;
 $color-white: white;
+$color-light-blue: #bcdbfb;
 
 // Default font size
 html,
@@ -16,6 +17,7 @@ body,
 #app {
   height: 100%;
 }
+
 div {
   font-size: $fsize--mss;
 }
@@ -74,4 +76,13 @@ div {
 .search-bar {
   border: 1px solid #dadfe2;
   border-radius: 3px;
+}
+
+/**
+ * component/API
+ */
+
+.api-icon {
+  border: 2px solid $color-light-blue;
+  border-radius: 50%;
 }
