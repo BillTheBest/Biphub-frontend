@@ -11,7 +11,11 @@ $color-light-purple: #899dc1;
 $color-white: white;
 
 // Default font size
-
+html,
+body,
+#app {
+  height: 100%;
+}
 div {
   font-size: $fsize--mss;
 }

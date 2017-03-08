@@ -4,8 +4,9 @@
   height: 100%;
 }
 
+// TODO: Figure out why it doesn't set icon font size
 .component-side {
-  .icon {
+  i {
     font-size: $fsize--lg;
   }
 }
