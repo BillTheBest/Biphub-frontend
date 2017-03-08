@@ -1,3 +1,3 @@
-/**
- * Created by Shin on 8/03/2017.
- */
+import SearchBar from './SearchBar.vue'
+
+export default SearchBar

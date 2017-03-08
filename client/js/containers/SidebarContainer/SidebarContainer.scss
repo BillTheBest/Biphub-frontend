@@ -1,3 +1,11 @@
+@import '../../../styles/size';
+
 .container {
   height: 100%;
+}
+
+.component-side {
+  .icon {
+    font-size: $fsize--lg;
+  }
 }

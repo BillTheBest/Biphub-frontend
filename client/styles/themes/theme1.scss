@@ -11,15 +11,15 @@ $color-light-purple: #899dc1;
 $color-white: white;
 
 // Default font size
+
 div {
   font-size: $fsize--mss;
 }
 
-.container-side {
-  background-color: $color-dark;
-}
+/**
+ * component/UserProfile
+ */
 
-// User profile styling
 .side-user-profile {
   background-color: $color-dark;
 
@@ -32,17 +32,27 @@ div {
   }
 }
 
-// Side bar menu inactive state
+/**
+ * component/Sidebar
+ */
+
+.container-side {
+  background-color: $color-dark;
+}
+
 .component-side {
   background-color: $color-dark;
   color: $color-light-purple;
 }
 
-// Sidebar menu item active state
 .component-side--active {
   background-color: $color-deep-dark;
   color: $color-white;
 }
+
+/**
+ * component/InfoBox
+ */
 
 .info-box-heading {
   color: $color-light-dark;
@@ -51,4 +61,13 @@ div {
 .info-box-description {
   color: $color-light-dark;
   font-size: 13px;
+}
+
+/**
+ * component/SearchBar
+ */
+
+.search-bar {
+  border: 1px solid #dadfe2;
+  border-radius: 3px;
 }

@@ -1,20 +1,20 @@
 @import '../../../styles/padding';
-@import '../../../styles/padding';
 
-.component-pad {
-  padding: $pd--md;
+.search-bar {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding: 10px;
 }
 
 .icon {
   align-self: center;
+  font-size: 10px;
 }
 
 .input {
   width: 100%;
   margin-left: 15px;
-  padding: $pd--md;
   align-self: center;
   outline: none;
   border: 0;

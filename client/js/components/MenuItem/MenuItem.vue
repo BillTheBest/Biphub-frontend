@@ -11,6 +11,7 @@
 
 <script>
   import Icon from 'components/Icon'
+
   export default {
   	created() {
   		console.log('this ', this.iconType)

@@ -1,21 +1,21 @@
 <style scoped lang="scss" src="./ExplorePanel.scss"></style>
 
 <template>
-  <div class="component">
+  <div class="explore-panel">
     <div class="component-pad">
-      <Icon type="search"
-             class="icon" ></Icon>
-      <input placeholder="Search for any app name..."
-             class="input" >
+      <SearchBar></SearchBar>
     </div>
   </div>
 </template>
 
 <script>
   import Icon from 'components/Icon'
+  import SearchBar from 'components/SearchBar'
+
   export default {
     components: {
     	Icon,
+      SearchBar,
     }
   }
 </script>
