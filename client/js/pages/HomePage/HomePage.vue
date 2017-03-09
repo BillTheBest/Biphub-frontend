@@ -7,9 +7,11 @@
          class="sidebar" >
     </div>
 
-    <div>hello! world</div>
-
     <div class="main">
+        <div is="TopbarContainer"
+             class="topbar" >
+        </div>
+
       <div>
         <ExplorePanel></ExplorePanel>
       </div>
@@ -40,6 +42,7 @@
 import Card from 'components/Card'
 import InfoBox from 'components/InfoBox'
 import Counter from 'components/Counter'
+import TopbarContainer from 'containers/TopbarContainer'
 import SidebarContainer from 'containers/SidebarContainer'
 import ExplorePanel from 'components/ExplorePanel'
 
@@ -51,6 +54,7 @@ export default {
   components: {
     Card,
     Counter,
+    TopbarContainer,
     SidebarContainer,
     InfoBox,
     ExplorePanel,
