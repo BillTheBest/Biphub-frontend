@@ -7,6 +7,8 @@
          class="sidebar" >
     </div>
 
+    <div>hello! world</div>
+
     <div class="main">
       <div>
         <ExplorePanel></ExplorePanel>
