@@ -1,4 +1,14 @@
 {
   "extends": "vue",
-  "comma-dangle": [1, "always"]
+  "rules": {
+    "func-names": ["error", "never"],
+    "no-tabs": 0,
+    "no-param-reassign": ["off"],
+    "no-extra-semi": "error",
+    "semi": ["error", "never"],
+    "consistent-return": ["off"],
+    "no-console": ["off"],
+    "comma-dangle": [1, "always"]
+  }
 }
+

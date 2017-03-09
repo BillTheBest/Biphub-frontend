@@ -1,3 +1,3 @@
-/**
- * Created by Shin on 9/03/2017.
- */
+import BipPage from './BipPage.vue'
+
+export default BipPage
