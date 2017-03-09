@@ -2,6 +2,10 @@
 @import '../../../styles/size';
 @import '../../../styles/colour';
 
+.component {
+  cursor: pointer;
+}
+
 .api-icon {
   display: flex;
   width: 67px;
