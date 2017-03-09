@@ -1,7 +1,7 @@
-<style></style>
+<style scoped lang="scss" src="./BipPage.scss"></style>
 
 <template>
-  <div>
+  <div class="page">
     test
   </div>
 </template>
