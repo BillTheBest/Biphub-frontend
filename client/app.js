@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { sync } from 'vuex-router-sync'
+import { sync, } from 'vuex-router-sync'
 import App from './js/components/App'
 import router from './js/router'
 import store from './js/store'
@@ -13,7 +13,7 @@ import 'styles/themes/theme1.scss'
 const app = new Vue({
   router,
   store,
-  ...App
+  ...App,
 })
 
-export { app, router, store }
+export { app, router, store, }

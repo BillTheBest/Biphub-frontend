@@ -12,5 +12,5 @@ runtime.install({
     console.log('updated')
     // console.log('updating ', location)
     // location.reload()
-  }
+  },
 })

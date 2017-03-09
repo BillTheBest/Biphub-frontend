@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  count: 0
+  count: 0,
 }
 
 const mutations = {
@@ -13,21 +13,21 @@ const mutations = {
   },
   DECREMENT (state) {
     state.count--
-  }
+  },
 }
 
 const actions = {
-  incrementAsync ({ commit }) {
+  incrementAsync ({ commit, }) {
     setTimeout(() => {
       commit('INCREMENT')
     }, 200)
-  }
+  },
 }
 
 const store = new Vuex.Store({
   state,
   mutations,
-  actions
+  actions,
 })
 
 export default store
