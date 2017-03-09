@@ -1,0 +1,58 @@
+<style scoped lang="scss" src="./TopbarContainer.scss"></style>
+
+<template>
+    <div class="topbar">
+        <div class="topbar topbar-left">
+            <MenuItem class="component-top"
+                      iconType="bars"
+            ></MenuItem>
+            <MenuItem class="component-top"
+                      iconType="diamond"
+            ></MenuItem>
+            <MenuItem class="component-top"
+                      iconType="expand"
+            ></MenuItem>
+            <MenuItem class="component-top"
+                      iconType="bars"
+            ></MenuItem>
+        </div>
+
+        <div class="topbar empty"></div>
+
+        <div class="topbar topbar-right">
+            <MenuItem class="component-top"
+                      iconType="search"
+            ></MenuItem>
+            <MenuItem class="component-top"
+                      iconType="envelope"
+            ></MenuItem>
+            <MenuItem class="component-top"
+                      iconType="bell"
+            ></MenuItem>
+            <!--UserProfile class="top-user-profile"
+                         photo="/static/profile-menu-image.png"
+                         name="jason"
+            ></UserProfile-->
+            <MenuItem class="component-top"
+                      iconType="sign-out"
+                      label="logout"
+            ></MenuItem>
+            <MenuItem class="component-top"
+                      iconType="comments"
+            ></MenuItem>
+        </div>
+    </div>
+
+</template>
+
+<script>
+  import MenuItem from 'components/MenuItem'
+  import UserProfile from 'components/UserProfile'
+
+  export default {
+    components: {
+      MenuItem,
+      UserProfile,
+    }
+  }
+</script>
