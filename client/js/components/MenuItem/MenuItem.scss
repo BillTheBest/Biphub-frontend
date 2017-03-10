@@ -6,6 +6,8 @@
   justify-content: center;
 }
 
+// TODO: Using nested CSS is not recommended.
+// Refactor this so your HTML is not dependent on CSS
 .center-column-flex {
   .icon {
     align-self: center;
