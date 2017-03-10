@@ -1,3 +1,3 @@
-/**
- * Created by Shin on 10/03/2017.
- */
+import Base from './Base.vue'
+
+export default Base
