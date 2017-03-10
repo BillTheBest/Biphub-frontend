@@ -49,6 +49,27 @@
       <API label="WoW"
            src="static/icon-wow.png"
       ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
+      <API label="WoW"
+           src="static/icon-wow.png"
+      ></API>
 
     </div>
   </div>
