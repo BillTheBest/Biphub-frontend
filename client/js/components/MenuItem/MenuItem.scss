@@ -4,6 +4,23 @@
 .component-pad {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+.component--column {
+  flex-direction: column;
+}
+
+.component--column-reverse {
+  flex-direction: column-reverse;
+}
+
+.component--row {
+  flex-direction: row;
+}
+
+.component--row-reverse {
+  flex-direction: row-reverse;
 }
 
 .label {
