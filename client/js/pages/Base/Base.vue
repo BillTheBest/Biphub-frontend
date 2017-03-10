@@ -13,7 +13,7 @@
            class="topbar" >
       </div>
 
-      <slot></slot>
+      <slot class="base-main-width"></slot>
 
     </div>
 

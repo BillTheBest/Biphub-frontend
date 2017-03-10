@@ -2,6 +2,7 @@
 
 <template>
     <div class="topbar">
+      <div class="base-main-width">
         <div class="topbar topbar-left">
             <MenuItem class="component-top"
                       iconType="bars"
@@ -42,6 +43,7 @@
                       iconType="comments"
             ></MenuItem>
         </div>
+      </div>
     </div>
 
 </template>
