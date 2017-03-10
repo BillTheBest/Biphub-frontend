@@ -4,15 +4,28 @@
 .component-pad {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+}
+
+.center-column-flex {
+  .icon {
+    align-self: center;
+  }
+
+  .label {
+    align-self: center;
+  }
 }
 
 .component--column {
   flex-direction: column;
+
+  @extend .center-column-flex;
 }
 
 .component--column-reverse {
   flex-direction: column-reverse;
+
+  @extend .center-column-flex;
 }
 
 .component--row {

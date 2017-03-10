@@ -3,7 +3,9 @@
 <template>
   <div class="component">
     <div v-bind:class="direction">
-      <Icon v-bind:type="iconType"></Icon>
+      <Icon class="icon"
+            v-bind:type="iconType"
+      ></Icon>
       <div class="label">{{ label }}</div>
     </div>
   </div>
@@ -24,6 +26,7 @@
     computed: {
       /**
        * Decides flex direction
+       * TODO: Implement strings used in this function in constants
        * @returns {string}
        */
     	direction() {
