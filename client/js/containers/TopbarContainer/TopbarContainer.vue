@@ -36,6 +36,7 @@
             <MenuItem class="component-top"
                       iconType="sign-out"
                       label="logout"
+                      flexDirection="row"
             ></MenuItem>
             <MenuItem class="component-top"
                       iconType="comments"
