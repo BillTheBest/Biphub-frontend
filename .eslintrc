@@ -14,7 +14,7 @@
     "no-extra-semi": "error",
     "semi": ["error", "never"],
     "consistent-return": ["off"],
-    "no-console": [1],
+    "no-console": [2],
     "comma-dangle": ["error", {
       "arrays": "only-multiline",
       "objects": "only-multiline",

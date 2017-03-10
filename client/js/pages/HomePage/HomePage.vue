@@ -30,18 +30,13 @@
 import BasePage from '../Base'
 import Card from 'components/Card'
 import InfoBox from 'components/InfoBox'
-import Counter from 'components/Counter'
 import ExplorePanel from 'components/ExplorePanel'
 
 // TODO: Implement page builder
 export default {
-  created () {
-    console.log('created Home')
-  },
   components: {
     BasePage,
     Card,
-    Counter,
     InfoBox,
     ExplorePanel,
   },

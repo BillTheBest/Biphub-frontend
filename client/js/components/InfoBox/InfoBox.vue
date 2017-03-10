@@ -25,9 +25,6 @@
   	components: {
       Icon,
     },
-    created() {
-  		console.log('test ', this.iconType)
-    },
     props: {
     	value: { type: String, default: 'N/A' },
     	iconType: { type: String, default: 'home' },

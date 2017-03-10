@@ -1,6 +1,11 @@
 @import '../../../styles/size';
 @import '../../../styles/padding';
 
+.component-pad {
+  display: flex;
+  justify-content: center;
+}
+
 .label {
   font-size: $fsize--ms;
 }
