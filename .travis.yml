@@ -3,8 +3,13 @@ language: node_js
 node_js:
   - "node"
 
+before_install:
+  - "npm install -g vue-cli"
+
 install:
   - npm install
+  - npm link eslint-plugin-html
+  - npm link eslint-plugin-babel
 
 script:
   - npm run scss:lint

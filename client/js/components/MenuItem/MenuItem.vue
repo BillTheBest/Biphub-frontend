@@ -18,7 +18,7 @@
     },
     props: {
     	iconType: { type: String, default: null },
-      label: { type: String, default: null, },
+      label: { type: String, default: null },
     }
   }
 </script>

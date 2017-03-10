@@ -8,7 +8,7 @@
 <script>
   export default {
     props: {
-      type: { type: String, default: 'home', },
+      type: { type: String, default: 'home' },
     },
     computed: {
       iconClass () {

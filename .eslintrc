@@ -1,5 +1,12 @@
 {
-  "extends": "vue",
+  "plugins": [
+    "html",
+    "babel"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
   "rules": {
     "func-names": ["error", "never"],
     "no-tabs": 0,
@@ -14,7 +21,8 @@
       "imports": "only-multiline",
       "exports": "only-multiline",
       "functions": "only-multiline"
-    }]
+    }],
+    "dot-notation": [2, { "allowKeywords": true }]
   }
 }
 
