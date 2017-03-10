@@ -13,7 +13,7 @@
                       iconType="expand"
             ></MenuItem>
             <MenuItem class="component-top"
-                      iconType="bars"
+                      iconType="cogs"
             ></MenuItem>
         </div>
 
