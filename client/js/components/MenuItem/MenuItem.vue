@@ -16,6 +16,11 @@
     components: {
       Icon,
     },
+    computed: {
+    	direction() {
+
+    }
+    },
     props: {
     	iconType: { type: String, default: null },
       label: { type: String, default: null },

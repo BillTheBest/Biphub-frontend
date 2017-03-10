@@ -14,7 +14,7 @@
 <script>
   export default {
     props: {
-    	src: { type:String, default: 'N/A' },
+    	src: { type: String, default: 'N/A' },
     	label: { type: String, default: 'N/A' },
     }
   }

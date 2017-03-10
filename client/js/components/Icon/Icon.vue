@@ -11,7 +11,7 @@
       type: { type: String, default: 'home' },
     },
     computed: {
-      iconClass () {
+      iconClass() {
         return `fa fa-${this.type}`
       }
     }

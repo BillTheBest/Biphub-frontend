@@ -1,7 +1,6 @@
 {
   "plugins": [
-    "html",
-    "babel"
+    "html"
   ],
   "parserOptions": {
     "ecmaVersion": 7,
@@ -22,6 +21,7 @@
       "exports": "only-multiline",
       "functions": "only-multiline"
     }],
+    "quotes": ["error", "single"],
     "dot-notation": [2, { "allowKeywords": true }]
   }
 }

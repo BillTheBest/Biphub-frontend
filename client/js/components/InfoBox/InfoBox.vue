@@ -22,7 +22,7 @@
 <script>
   import Icon from 'components/Icon'
   export default {
-  	components: {
+    components: {
       Icon,
     },
     props: {

@@ -10,8 +10,8 @@
 
 <script>
   export default {
-  	props: {
-  		text: {type: String, default: 'N/A'}
+    props: {
+      text: { type: String, default: 'N/A' }
     }
   }
 </script>

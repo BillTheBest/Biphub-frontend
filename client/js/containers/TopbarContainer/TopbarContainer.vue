@@ -46,13 +46,13 @@
 </template>
 
 <script>
-  import MenuItem from 'components/MenuItem'
-  import UserProfile from 'components/UserProfile'
+import MenuItem from 'components/MenuItem'
+import UserProfile from 'components/UserProfile'
 
-  export default {
-    components: {
-      MenuItem,
-      UserProfile,
-    }
+export default {
+  components: {
+    MenuItem,
+    UserProfile,
   }
+}
 </script>
