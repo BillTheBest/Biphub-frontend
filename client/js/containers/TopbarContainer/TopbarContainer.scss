@@ -1,15 +1,26 @@
 @import '../../../styles/size';
 
 .topbar {
-  min-height: 50px;
-  width: 100%;
-  display: flex;
-  align-items: center;
   background-color: #fff;
   border-bottom: 1px solid #e9e9e9;
 }
 
+.topbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+}
+
+.topbar-left {
+  width: 30%;
+}
+
+.empty {
+  width: 40%;
+}
+
 .topbar-right {
+  width: 30%;
   margin-left: auto;
 }
 

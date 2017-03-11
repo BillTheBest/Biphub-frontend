@@ -1,5 +1,7 @@
 # biphub-frontend
 
+[![Build Status](https://travis-ci.org/Biphub/Biphub-frontend.svg?branch=master)](https://travis-ci.org/Biphub/Biphub-frontend)
+
 To start:
 
 ```bash
