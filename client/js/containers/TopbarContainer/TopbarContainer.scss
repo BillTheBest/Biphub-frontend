@@ -7,21 +7,25 @@
 
 .topbar-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 50px;
+  margin: 0 auto;
 }
 
 .topbar-left {
   width: 30%;
+  display: flex;
 }
 
 .empty {
   width: 40%;
+  display: flex;
 }
 
 .topbar-right {
   width: 30%;
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .component-top {
