@@ -9,6 +9,7 @@
     <div class="component-pad api-list">
       <API label="Discord"
            src="static/icon-discord.png"
+           v-on:click="onAppClick"
       ></API>
       <API label="Dota 2"
            src="static/icon-dota2.png"
@@ -85,6 +86,11 @@
     	Icon,
       SearchBar,
       API,
+    },
+    methods: {
+      onAppClick() {
+      	this.$emit('onAppClick')
+      }
     }
   }
 </script>

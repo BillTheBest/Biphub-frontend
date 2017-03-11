@@ -4,25 +4,8 @@
   <BasePage>
     <div class="base-main-width">
       <div>
-        <ExplorePanel></ExplorePanel>
-      </div>
-
-      <div class="info-row">
-        <Card>
-          <InfoBox value="1231244"
-                   iconType="users"
-                   description="User activity this month"
-          ></InfoBox>
-        </Card>
-        <Card>
-          <div>testzz</div>
-        </Card>
-        <Card>
-          <div>testzz</div>
-        </Card>
-        <Card>
-          <div>testzz</div>
-        </Card>
+        <ExplorePanel v-on:onAppClick="onAppClick"
+        ></ExplorePanel>
       </div>
     </div>
   </BasePage>
@@ -44,6 +27,12 @@ export default {
   },
   props: {
     test: { type: String, default: 'nothing!' }
+  },
+  methods: {
+  	onAppClick() {
+  		console.log('testing!')
+      // this.$router.
+    }
   }
 }
 </script>
