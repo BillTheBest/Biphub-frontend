@@ -12,9 +12,7 @@
       <div is="TopbarContainer"
            class="topbar" >
       </div>
-
-      <slot class="base-main-width"></slot>
-
+      <slot></slot>
     </div>
 
   </div>

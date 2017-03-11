@@ -2,26 +2,28 @@
 
 <template>
   <BasePage>
-    <div>
-      <ExplorePanel></ExplorePanel>
-    </div>
+    <div class="base-main-width">
+      <div>
+        <ExplorePanel></ExplorePanel>
+      </div>
 
-    <div class="info-row">
-      <Card>
-        <InfoBox value="1231244"
-                 iconType="users"
-                 description="User activity this month"
-        ></InfoBox>
-      </Card>
-      <Card>
-        <div>testzz</div>
-      </Card>
-      <Card>
-        <div>testzz</div>
-      </Card>
-      <Card>
-        <div>testzz</div>
-      </Card>
+      <div class="info-row">
+        <Card>
+          <InfoBox value="1231244"
+                   iconType="users"
+                   description="User activity this month"
+          ></InfoBox>
+        </Card>
+        <Card>
+          <div>testzz</div>
+        </Card>
+        <Card>
+          <div>testzz</div>
+        </Card>
+        <Card>
+          <div>testzz</div>
+        </Card>
+      </div>
     </div>
   </BasePage>
 </template>
