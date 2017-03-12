@@ -1,12 +1,12 @@
-<style scoped lang="scss" src="./API.scss"></style>
+<style scoped lang="scss" src="./App.scss"></style>
 
 <template>
   <div class="component"
        v-on:click="onClick" >
-    <div class="api-icon">
+    <div class="app-icon">
       <img v-bind:src="src">
     </div>
-    <div class="api-label">
+    <div class="app-label">
       {{ label }}
     </div>
   </div>
