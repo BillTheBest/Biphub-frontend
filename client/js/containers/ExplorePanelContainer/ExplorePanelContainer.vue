@@ -1,4 +1,4 @@
-<style scoped lang="scss" src="./ExplorePanel.scss"></style>
+<style scoped lang="scss" src="./ExplorePanelContainer.scss"></style>
 
 <template>
   <div class="explore-panel">

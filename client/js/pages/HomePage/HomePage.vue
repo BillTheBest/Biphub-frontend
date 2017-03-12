@@ -4,8 +4,8 @@
   <BasePage>
     <div class="base-main-width">
       <div>
-        <ExplorePanel v-on:onAppClick="onAppClick"
-        ></ExplorePanel>
+        <ExplorePanelContainer v-on:onAppClick="onAppClick"
+        ></ExplorePanelContainer>
       </div>
     </div>
   </BasePage>
@@ -13,9 +13,9 @@
 
 <script>
 import BasePage from '../Base'
+import ExplorePanelContainer from 'containers/ExplorePanelContainer'
 import Card from 'components/Card'
 import InfoBox from 'components/InfoBox'
-import ExplorePanel from 'components/ExplorePanel'
 
 // TODO: Implement page builder
 export default {
@@ -23,7 +23,7 @@ export default {
     BasePage,
     Card,
     InfoBox,
-    ExplorePanel,
+    ExplorePanelContainer,
   },
   props: {
     test: { type: String, default: 'nothing!' }
