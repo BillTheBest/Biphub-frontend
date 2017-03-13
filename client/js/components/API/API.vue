@@ -2,8 +2,8 @@
 
 <template>
   <div class="component"
-       v-on:click="onClick" >
-    <div class="api-icon">
+       v-on:click="onClick">
+    <div class="api-icon" v-bind:style="{border: border, backgroundColor: backgroundColor}">
       <img v-bind:src="src">
     </div>
     <div class="api-label">
@@ -17,6 +17,8 @@
     props: {
     	src: { type: String, default: 'N/A' },
     	label: { type: String, default: 'N/A' },
+        border: { type: String, default: '2px solid $color-light-blue' },
+        backgroundColor: { type: String, default: 'N/A' },
     },
     methods: {
     	onClick() {

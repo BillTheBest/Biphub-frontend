@@ -9,6 +9,8 @@
     <div class="component-pad api-list">
       <API label="Discord"
            src="static/icon-discord.png"
+           border="3px solid gray"
+           backgroundColor="red"
            v-on:click="onAppClick"
       ></API>
       <API label="Dota 2"
