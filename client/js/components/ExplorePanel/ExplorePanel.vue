@@ -9,10 +9,16 @@
     <div class="component-pad api-list">
       <API label="Discord"
            src="static/icon-discord.png"
+           border="3px solid gray"
+           backgroundColor="red"
+           borderRadius="10%"
            v-on:click="onAppClick"
       ></API>
       <API label="Dota 2"
            src="static/icon-dota2.png"
+           border="3px solid gray"
+           borderRadius="25%"
+           backgroundColor="black"
       ></API>
       <API label="Gmail"
            src="static/icon-gmail.png"
