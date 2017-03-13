@@ -23,10 +23,11 @@
     components: {
       Icon,
     },
+    name: 'MenuItem',
     computed: {
       /**
        * Decides flex direction
-       * TODO: Implement strings used in this function in constants
+       * TODO: Move strings used in this function in constants
        * @returns {string}
        */
     	direction() {

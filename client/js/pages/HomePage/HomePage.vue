@@ -6,6 +6,7 @@
       <div>
         <ExplorePanelContainer v-on:onAppClick="onAppClick"
         ></ExplorePanelContainer>
+        <SuggestionContainer></SuggestionContainer>
       </div>
     </div>
   </BasePage>
@@ -14,15 +15,15 @@
 <script>
 import BasePage from '../Base'
 import ExplorePanelContainer from 'containers/ExplorePanelContainer'
-import Card from 'components/Card'
+import SuggestionContainer from 'containers/SuggestionContainer'
 import InfoBox from 'components/InfoBox'
 
 // TODO: Implement page builder
 export default {
   components: {
     BasePage,
-    Card,
     InfoBox,
+    SuggestionContainer,
     ExplorePanelContainer,
   },
   props: {
@@ -30,7 +31,6 @@ export default {
   },
   methods: {
   	onAppClick() {
-  		console.log('testing!')
       // this.$router.
     }
   }

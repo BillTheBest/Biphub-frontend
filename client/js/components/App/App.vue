@@ -6,7 +6,8 @@
     <div class="app-icon">
       <img v-bind:src="src">
     </div>
-    <div class="app-label">
+    <div class="app-label"
+         v-if="label" >
       {{ label }}
     </div>
   </div>
@@ -16,11 +17,10 @@
   export default {
     props: {
     	src: { type: String, default: 'N/A' },
-    	label: { type: String, default: 'N/A' },
+    	label: { type: String, default: null },
     },
     methods: {
     	onClick() {
-    		console.log('clicked!')
     		this.$emit('click')
       }
     }
