@@ -110,9 +110,12 @@ div {
  * component/API
  */
 
-.app-icon {
-  border: 2px solid $color-light-blue;
-  border-radius: 50%;
+.app-icon--border {
+  border: 2.5px solid $color-light-blue;
+}
+
+.app-icon--no-border {
+  border: 0;
 }
 
 .app-label {
