@@ -8,8 +8,10 @@ $color-dark: #34425a;
 $color-deep-dark: #2b384e;
 $color-light-dark: #374051;
 $color-light-purple: #899dc1;
+$color-dark-blue: #58676c;
 $color-white: white;
 $color-light-blue: #bcdbfb;
+
 
 // Default font size
 html,
@@ -37,6 +39,7 @@ div {
 .explore-heading {
   text-align: center;
   font-size: $fsize--md;
+  color: $color-dark-blue;
 }
 
 /**
@@ -102,4 +105,8 @@ div {
 .app-icon {
   border: 2px solid $color-light-blue;
   border-radius: 50%;
+}
+
+.app-label {
+  color: $color-dark-blue;
 }
