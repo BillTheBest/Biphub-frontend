@@ -2,6 +2,13 @@
 
 <template>
   <div class="explore-panel">
+
+    <div class="component-pad">
+      <div class="explore-heading">
+        <Icon type="search"></Icon> Pick Apps to find out automating them
+      </div>
+    </div>
+
     <div class="component-pad">
       <SearchBar></SearchBar>
     </div>
