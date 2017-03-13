@@ -1,7 +1,7 @@
 <style scoped lang="scss" src="./Card.scss"></style>
 
 <template>
-  <div class="component">
+  <div class="card component">
 
     <div class="component-pad">
       <div class="header">{{ header }}</div>
@@ -11,8 +11,10 @@
         <App src="static/icon-hearthstone.png"></App>
       </div>
       <div class="actions">
-        <div>Share</div>
-        <div>Bip</div>
+        <div class="component-pad">
+          <div class="action-button">Share</div>
+          <div class="action-button">Bip</div>
+        </div>
       </div>
     </div>
 
