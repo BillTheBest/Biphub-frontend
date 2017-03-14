@@ -3,3 +3,15 @@
 .component-pad {
   padding: $pd--md;
 }
+
+.card {
+    min-height: 100px;
+}
+
+.card-gray {
+    background-color: gray;
+}
+
+.card-blue {
+    background-color: blue;
+}
