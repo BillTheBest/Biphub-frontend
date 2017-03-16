@@ -13,12 +13,12 @@
               label="home"
     ></MenuItem>
     <MenuItem class="component-side"
-              iconType="grav"
-              label="profile"
-    ></MenuItem>
-    <MenuItem class="component-side"
               iconType="bandcamp"
               label="bips"
+    ></MenuItem>
+    <MenuItem class="component-side"
+              iconType="grav"
+              label="profile"
     ></MenuItem>
   </div>
 </template>

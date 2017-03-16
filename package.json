@@ -7,6 +7,7 @@
     "test": "testcafe all tests/index.js --app \"npm run dev\" --app-init-delay 10000",
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
+    "dev:forever": "forever build/server.js",
     "js:fix": "eslint --fix client/**/*.vue",
     "js:lint": "eslint --ext js,vue client/**/*.vue",
     "scss:lint": "stylelint \"client/**/*.scss\" --syntax scss",

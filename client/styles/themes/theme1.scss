@@ -8,8 +8,10 @@ $color-dark: #34425a;
 $color-deep-dark: #2b384e;
 $color-light-dark: #374051;
 $color-light-purple: #899dc1;
+$color-dark-blue: #58676c;
 $color-white: white;
 $color-light-blue: #bcdbfb;
+
 
 // Default font size
 html,
@@ -31,6 +33,16 @@ div {
 }
 
 /**
+ * page/explore
+ */
+
+.explore-heading {
+  text-align: center;
+  font-size: $fsize--md;
+  color: $color-dark-blue;
+}
+
+/**
  * component/UserProfile
  */
 
@@ -44,6 +56,14 @@ div {
   .role {
     color: $color-light-purple;
   }
+}
+
+/**
+ * component/Card
+ */
+
+.card {
+  color: white;
 }
 
 /**
@@ -90,7 +110,14 @@ div {
  * component/API
  */
 
-.api-icon {
-  border: 2px solid $color-light-blue;
-  border-radius: 50%;
+.app-icon--border {
+  border: 2.5px solid $color-light-blue;
+}
+
+.app-icon--no-border {
+  border: 0;
+}
+
+.app-label {
+  color: $color-dark-blue;
 }

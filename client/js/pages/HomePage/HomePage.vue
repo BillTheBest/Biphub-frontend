@@ -4,15 +4,9 @@
   <BasePage>
     <div class="base-main-width">
       <div>
-        <Card title="test"
-              link="http://naver.com"
-              writer_name="Will Smith"
-              crdate="2017-03-03"
-              bgColor="gray"
-        ></Card>
-
-        <ExplorePanel v-on:onAppClick="onAppClick"
-        ></ExplorePanel>
+        <ExplorePanelContainer v-on:onAppClick="onAppClick"
+        ></ExplorePanelContainer>
+        <SuggestionContainer></SuggestionContainer>
       </div>
     </div>
   </BasePage>
@@ -20,25 +14,23 @@
 
 <script>
 import BasePage from '../Base'
+import ExplorePanelContainer from 'containers/ExplorePanelContainer'
+import SuggestionContainer from 'containers/SuggestionContainer'
 import InfoBox from 'components/InfoBox'
-import ExplorePanel from 'components/ExplorePanel'
-import Card from 'components/Card'
 
 // TODO: Implement page builder
 export default {
   components: {
     BasePage,
-    Card,
     InfoBox,
-    ExplorePanel,
-    Card
+    SuggestionContainer,
+    ExplorePanelContainer,
   },
   props: {
     test: { type: String, default: 'nothing!' }
   },
   methods: {
   	onAppClick() {
-  		console.log('testing!')
       // this.$router.
     }
   }

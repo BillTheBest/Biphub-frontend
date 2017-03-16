@@ -1,43 +1,38 @@
 <style scoped lang="scss" src="./Card.scss"></style>
 
 <template>
-    <div class="card">
-        <div v-bind:class="cardClass">
-            <a v-bind:href="link">
-                {{ title }}
-            </a>
+
+  <div class="card component">
+
+    <div class="component-pad">
+      <div class="header">{{ header }}</div>
+      <div class="formula-box">
+        <App src="static/icon-hearthstone.png"></App>
+        <Icon class="plus" type="plus"></Icon>
+        <App src="static/icon-hearthstone.png"></App>
+      </div>
+      <div class="actions">
+        <div class="component-pad">
+          <div class="action-button">Share</div>
+          <div class="action-button">Bip</div>
         </div>
-        <div class="">
-            {{ writer_name }}
-        </div>
-        <div class="">
-            {{ crdate }}
-        </div>
+      </div>
     </div>
+
+  </div>
 </template>
 
 <script>
-    export default {
-        props: {
-            title: { type: String, default: 'N/A' },
-            link: { type: String, default: 'http://google.com' },
-            writer_name: { type: String, default: 'N/A' },
-            writer_icon: { type: String, default: 'N/A' },
-            crdate: { type: String, default: '1999-11-11' },
-            bgColor: { type: String, default: 'gray' },
-            computed: {
+  import App from 'components/App'
+  import Icon from 'components/Icon'
 
-                // TODO: check why not work
-                cardClass() {
-                    console.log("####color:", this.bgColor);
-                    switch (this.bgColor) {
-                        case "gray":
-                        case "default":
-                            return "card-gray"
-                            break
-                    }
-                }
-            }
-        }
+  export default {
+    props: {
+      header: { type: String, default: null },
+    },
+    components: {
+      App,
+      Icon,
     }
+  }
 </script>
