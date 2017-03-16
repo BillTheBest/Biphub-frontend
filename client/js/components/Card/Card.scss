@@ -3,8 +3,8 @@
 .component-pad {
   background: red;
   border-radius: 5px;
-  padding: 10px 10px;
-  margin: 15px 15px;
+  padding: 10px;
+  margin: 15px;
 }
 
 .formula-box {
@@ -47,9 +47,9 @@
 }
 
 .cardAction {
-    display: flex;
+  display: flex;
 }
 
 .cardAction > .card-label {
-    display: flex;
+  display: flex;
 }
