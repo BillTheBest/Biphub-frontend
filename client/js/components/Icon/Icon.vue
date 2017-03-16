@@ -5,6 +5,7 @@
     <i v-bind:class="iconClass" aria-hidden="true"></i>
   </span>
 </template>
+
 <script>
   export default {
     props: {
